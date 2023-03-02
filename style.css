@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    background-color: crimson;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+
+#banner_img {
+    height: 75vh;
+    width: 100vw;
+}
+
+.cards {
+    width: 300px;
+    border: 2px solid crimson;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.cards p {
+    width: 200px;
+    height: 200px;
+
+    text-align: justify;
+
+}
+
+main {
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#services {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: gap;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.price_cards {
+    background-color: rgb(224, 212, 212);
+    width: 250px;
+    border: 2px solid crimson;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.price_cards img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    height: 10vh;
+    
+}
+
+.contact_links li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.contact_links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: center;
+
+
+}
