@@ -115,7 +115,7 @@ footer {
     text-align: center;
     color: white;
     height: 10vh;
-    
+
 }
 
 .contact_links li {
@@ -132,5 +132,12 @@ footer {
     display: flex;
     justify-content: center;
 
+}
 
+@media (max-width: 500px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
